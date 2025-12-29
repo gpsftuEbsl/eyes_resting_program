@@ -40,7 +40,7 @@ def loading_animation():
     print("系統啟動中...")
     sleep(2)  # 暫停 2 秒以模擬啟動過程
     global WORK_SEC
-    WORK_SEC = int(input("這裡是小晶護眼系統 ∠( ᐛ 」∠)\n請輸入預計工作時間(分):"))*60
+    WORK_SEC = int(input("這裡是護眼小助手\n請輸入預計工作時間(分):"))*60
     for i in range(4):
         print(f"系統加載中...\n進度:{i*30}%")
         sleep(2)  # 暫停 2 秒以模擬啟動過程
@@ -48,7 +48,7 @@ def loading_animation():
     sleep(2)
     print("加載完成！\n")
     sleep(1)
-    print(f"🕒 系統啟動──開始計時 {WORK_SEC/60} 分鐘 ⏳\n💡 小晶提醒：時間到我會跳出來喔 (=v=)~")
+    print(f"🕒 系統啟動──開始計時 {WORK_SEC/60} 分鐘 ⏳\n💡 助手提醒：時間到我會跳出來喔 (=v=)~")
 
 # ===== 主程式 =====
 root = tk.Tk()      # 建立主視窗
