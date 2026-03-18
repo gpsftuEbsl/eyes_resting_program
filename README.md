@@ -1,2 +1,3 @@
 # eyes_resting_program
-practicing tkinter simply
+A project to protect eyes while practicing Tkinter.
+Customizable work and break timers.
